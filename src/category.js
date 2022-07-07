@@ -30,7 +30,6 @@ const Category = () => {
                        <h2 className="title">{title}</h2>
                         <p>{type}</p>
                         <p className="amt">{price}</p>
-                       // <img src="{image}" alt="" />
                         <button className="btn-cart-1">Remove Cart</button>
                         <button className="btn-cart-2">Add Cart</button>
                     </div>
