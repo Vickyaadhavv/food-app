@@ -23,14 +23,14 @@ const Category = () => {
               <div className="right">
                 <div className="cards-content">
                 {data.map((values)=>{
-                    const {id,title,price,type,image}= values
+                    const {id,title,price,type}= values
                     return(
                         <>
                     <div className="cards" key={id}>
                        <h2 className="title">{title}</h2>
                         <p>{type}</p>
                         <p className="amt">{price}</p>
-                        <img src="{image}" alt="" />
+                       // <img src="{image}" alt="" />
                         <button className="btn-cart-1">Remove Cart</button>
                         <button className="btn-cart-2">Add Cart</button>
                     </div>
